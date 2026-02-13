@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const PainSection: React.FC = () => {
   return (
-    <section className="py-24 md:py-32 relative bg-surface1/50 border-t border-white/5">
+    <section className="py-14 md:py-32 relative bg-surface1/50 border-t border-white/5">
       <div className="max-w-7xl mx-auto px-5 md:px-8 grid md:grid-cols-2 gap-16 items-center">
 
         {/* Left Text */}

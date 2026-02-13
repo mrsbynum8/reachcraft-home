@@ -5,7 +5,7 @@ import Button from './Button';
 
 const ChoosePath: React.FC = () => {
   return (
-    <section id="services" className="py-32 relative">
+    <section id="services" className="py-14 md:py-32 relative">
       <div className="max-w-7xl mx-auto px-5 md:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -87,7 +87,7 @@ const ChoosePath: React.FC = () => {
                 { title: "Authority Content Strategy", desc: "3 weeks" }
               ].map((sprint) => (
                 <div key={sprint.title} className="bg-white/5 border border-white/5 rounded p-3 hover:bg-white/10 transition-colors cursor-default">
-                  <h4 className="text-base font-bold text-secondaryAccent">{sprint.title} <span className="text-sm text-mutedText font-normal">({sprint.desc})</span></h4>
+                  <h4 className="text-base font-bold text-secondaryAccent">{sprint.title}<br /><span className="text-sm text-mutedText font-normal">({sprint.desc})</span></h4>
                 </div>
               ))}
             </div>

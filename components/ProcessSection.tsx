@@ -4,7 +4,7 @@ import { PROCESS_STEPS } from '../constants';
 
 const ProcessSection: React.FC = () => {
   return (
-    <section id="process" className="relative py-32 bg-base">
+    <section id="process" className="relative py-14 md:py-32 bg-base">
       <div className="max-w-7xl mx-auto px-5 md:px-8">
         <div className="grid lg:grid-cols-12 gap-12">
 
@@ -20,7 +20,7 @@ const ProcessSection: React.FC = () => {
           </div>
 
           {/* Scrolling Right Column */}
-          <div className="lg:col-span-7 flex flex-col gap-24 lg:gap-40 pb-24">
+          <div className="lg:col-span-7 flex flex-col gap-12 lg:gap-40 pb-12 lg:pb-24">
             {PROCESS_STEPS.map((step, idx) => (
               <ProcessCard key={step.id} step={step} index={idx} />
             ))}

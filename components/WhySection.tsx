@@ -3,7 +3,7 @@ import { InfoCard } from './InfoCard';
 
 const WhySection: React.FC = () => {
   return (
-    <section id="why-us" className="py-24 bg-surface1/30">
+    <section id="why-us" className="py-14 md:py-24 bg-surface1/30">
       <div className="max-w-7xl mx-auto px-5 md:px-8">
         <div className="mb-16">
           <h2 className="font-display font-semibold text-3xl md:text-4xl mb-4">Why Smart Business Owners <br />Choose ReachCraft</h2>

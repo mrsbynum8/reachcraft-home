@@ -5,16 +5,16 @@ const TrustedSection: React.FC = () => {
   const logos = Array(8).fill("REACHCRAFT");
 
   return (
-    <section className="py-20 border-y border-white/5 bg-base overflow-hidden">
-      
+    <section className="py-10 md:py-20 border-y border-white/5 bg-base overflow-hidden">
+
       {/* Marquee */}
-      <div className="relative w-full mb-20 mask-linear-fade">
+      <div className="relative w-full mb-10 md:mb-20 mask-linear-fade">
         <div className="flex w-max space-x-20 animate-marquee">
-           {[...logos, ...logos].map((logo, i) => (
-             <div key={i} className="text-2xl font-display font-bold text-white/10 uppercase tracking-widest whitespace-nowrap">
-                CLIENT LOGO {i + 1}
-             </div>
-           ))}
+          {[...logos, ...logos].map((logo, i) => (
+            <div key={i} className="text-2xl font-display font-bold text-white/10 uppercase tracking-widest whitespace-nowrap">
+              CLIENT LOGO {i + 1}
+            </div>
+          ))}
         </div>
       </div>
 

@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
   let charIndex2 = 0;
 
   return (
-    <section className="relative min-h-screen w-full flex items-center pt-20 md:pt-0 overflow-hidden bg-vignette">
+    <section className="relative min-h-screen w-full flex items-center pt-20 md:pt-0 pb-16 md:pb-0 overflow-hidden bg-vignette">
       <div className="max-w-7xl mx-auto w-full px-5 md:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
         {/* Left: Text Content */}
@@ -97,7 +97,7 @@ const Hero: React.FC = () => {
         </div>
 
         {/* Right: Chaotic to Unified Visual */}
-        <div className="relative h-[400px] md:h-[600px] w-full flex items-center justify-center perspective-[1000px]">
+        <div className="relative h-[250px] md:h-[600px] w-full flex items-center justify-center perspective-[1000px]">
           <ScatteredVisual />
         </div>
       </div>
