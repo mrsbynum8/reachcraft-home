@@ -39,12 +39,16 @@ const Header: React.FC = () => {
           {/* Logo */}
           <motion.a
             href="#"
-            className="font-display font-bold text-xl md:text-2xl tracking-tight text-primaryText relative z-50"
-            animate={{ scale: scrolled ? 0.95 : 1 }}
+            className="relative z-50 flex items-center"
+            animate={{ scale: scrolled ? 0.9 : 1 }}
             data-hoverable="true"
             onClick={() => setIsMenuOpen(false)}
           >
-            ReachCraft
+            <img
+              src="/RCALogo Version2 White.svg"
+              alt="ReachCraft"
+              className={`transition-all duration-300 ${scrolled ? 'h-8' : 'h-10'}`}
+            />
           </motion.a>
 
           {/* Desktop Nav */}
