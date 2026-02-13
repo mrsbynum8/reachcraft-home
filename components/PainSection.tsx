@@ -15,8 +15,7 @@ const PainSection: React.FC = () => {
           className="max-w-lg"
         >
           <h2 className="font-display font-semibold text-3xl md:text-4xl text-primaryText mb-6">
-            You're Juggling Too Much
-            <span className="text-mutedText">(And Marketing Keeps Getting Dropped)</span>
+            You're Juggling Too Much <span className="text-mutedText">(And Marketing Keeps Getting Dropped)</span>
           </h2>
           <p className="text-mutedText text-lg leading-relaxed mb-6">
             You're stretched between operations, finance, and customer service. Somewhere in there, you're supposed to be a marketing genius. The result? A message that isn't connecting and an expertise that isn't translating into the market presence you deserve.
@@ -56,7 +55,7 @@ const PainSection: React.FC = () => {
           </div>
         </div>
       </div>
-    </section>
+    </section >
   );
 };
 
