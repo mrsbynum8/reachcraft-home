@@ -16,8 +16,8 @@ const FinalCTA: React.FC = () => {
             transition={{ duration: 0.8 }}
             className="max-w-2xl px-5"
           >
-            <h2 className="font-display font-bold text-4xl md:text-5xl mb-6">
-              Ready to Claim Your <br />Market Position?
+            <h2 className="font-display font-bold text-3xl md:text-5xl mb-6">
+              Ready to Claim Your Market Position?
             </h2>
             <p className="text-mutedText text-lg mb-10">
               Limited partnerships are available for serious inquiries. If you're ready to build category authority while your competitors scramble with scattered tactics, let's talk.
