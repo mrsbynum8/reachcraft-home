@@ -11,7 +11,7 @@ const ProcessSection: React.FC = () => {
           {/* Sticky Left Column */}
           <div className="lg:col-span-5 relative">
             <div className="sticky top-32">
-              <h2 className="font-display font-bold text-4xl mb-6">Our Proven Path to <br />Market Leadership</h2>
+              <h2 className="font-display font-bold text-4xl mb-6">Our Proven Path to Market Leadership</h2>
               <p className="text-mutedText text-lg leading-relaxed mb-8">
                 Chaos is expensive. We install a marketing operating system that creates predictable growth. This isn't a hack; it's engineering.
               </p>

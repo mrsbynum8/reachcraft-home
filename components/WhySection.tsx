@@ -6,7 +6,7 @@ const WhySection: React.FC = () => {
     <section id="why-us" className="py-14 md:py-24 bg-surface1/30">
       <div className="max-w-7xl mx-auto px-5 md:px-8">
         <div className="mb-16">
-          <h2 className="font-display font-semibold text-3xl md:text-4xl mb-4">Why Smart Business Owners <br />Choose ReachCraft</h2>
+          <h2 className="font-display font-semibold text-3xl md:text-4xl mb-4">Why Smart Business Owners Choose ReachCraft</h2>
           <p className="text-mutedText text-lg max-w-2xl">Unlike traditional agencies that over-promise and under-deliver, we operate with radical transparency. We believe that's how partnerships should work.</p>
         </div>
 

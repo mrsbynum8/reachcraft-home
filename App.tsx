@@ -13,7 +13,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="bg-base min-h-screen text-primaryText selection:bg-accent selection:text-white">
+    <div className="bg-base min-h-screen text-primaryText selection:bg-accent selection:text-white overflow-x-hidden">
       <CustomCursor />
       <Header />
 

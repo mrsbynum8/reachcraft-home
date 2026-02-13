@@ -3,8 +3,8 @@ import { motion } from 'framer-motion';
 
 const PainSection: React.FC = () => {
   return (
-    <section className="py-14 md:py-32 relative bg-surface1/50 border-t border-white/5">
-      <div className="max-w-7xl mx-auto px-5 md:px-8 grid md:grid-cols-2 gap-16 items-center">
+    <section className="pt-14 pb-32 md:py-32 relative bg-surface1/50 border-t border-white/5">
+      <div className="max-w-7xl mx-auto px-5 md:px-8 grid md:grid-cols-2 gap-8 md:gap-16 items-center">
 
         {/* Left Text */}
         <motion.div
@@ -15,7 +15,7 @@ const PainSection: React.FC = () => {
           className="max-w-lg"
         >
           <h2 className="font-display font-semibold text-3xl md:text-4xl text-primaryText mb-6">
-            You're Juggling Too Much <br />
+            You're Juggling Too Much
             <span className="text-mutedText">(And Marketing Keeps Getting Dropped)</span>
           </h2>
           <p className="text-mutedText text-lg leading-relaxed mb-6">
